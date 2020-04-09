@@ -21,6 +21,7 @@ sudo make install
 
 sudo sh -c 'printf "Section "InputClass"\n\tIdentifier "evdev tablet catchall"\n\tMatchIsTablet "on"\n\tMatchDevicePath "/dev/input/event*"\n\tDriver "evdev"\nEndSection\n" >> /etc/X11/xorg.conf.d/evdev-tablet.conf'  
 
-git clone https://github.com/TortugaAttack/huion-linux-drivers
-cd huion-linux-drivers/
+#only applies if github wasn't cloned
+#git clone https://github.com/TortugaAttack/huion-linux-drivers
+#cd huion-linux-drivers/
 
